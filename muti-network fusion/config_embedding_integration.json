@@ -1,0 +1,26 @@
+{
+  "net_paths": [
+    "../all_data/temp_data/Brain_filtered.npz",
+    "../all_data/temp_data/ppi_database.npz",
+    "../all_data/temp_data/ppi_experimental.npz",
+    "../all_data/temp_data/ppi_fusion.npz",
+    "../all_data/temp_data/ppi_cooccurence.npz",
+    "../all_data/temp_data/ppi_neighborhood.npz",
+    "../all_data/temp_data/Brain_filtered_gcn.npz",
+    "../all_data/temp_data/ppi_coexpression_gcn.npz",
+    "../all_data/temp_data/ppi_database_gcn.npz",
+    "../all_data/temp_data/ppi_experimental_gcn.npz",
+    "../all_data/temp_data/ppi_fusion_gcn.npz",
+    "../all_data/temp_data/ppi_cooccurence_gcn.npz",
+    "../all_data/temp_data/ppi_neighborhood_gcn.npz"
+  ],
+  "net_dims": [6007,19025,10610,18317,6200,2968,4039,3128,3128,3128,3128,3128,2528,2328],
+  "net_nums": 14,
+  "hidden_dim": [1000],
+  "batch_size": 256,
+  "lr": [0.01],
+  "momentum": 0.5,
+  "gamma": 0.5,
+  "epoch": [1600],
+  "topN": [ 40000, 40000,12000,40000,  30000, 30000,30000, 30000,12000,30000,30000, 30000,12000,30000]
+}
